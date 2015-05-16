@@ -28,7 +28,7 @@ function jd_books_list( $genres='' ) {
 */
 
 // Adds shortcode to load robots list in content
-function jd_robots_list_shortcode( $jd_books_atts ) {
+function jd_books_list_shortcode( $jd_books_atts ) {
 
 	$jd_books_atts = shortcode_atts( array(
 		'genres' => ''
