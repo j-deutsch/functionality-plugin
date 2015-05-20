@@ -11,7 +11,9 @@
                         name: 'textboxtooltipName',
                         label: 'Genre(s)',
                         value: ''
-                    },  ],
+                    }, {   type: 'container',
+                           html: '<p>Enter a comma separated list of genres you would like, or leave blank to show all genres.</p>'
+                          }, ],
                     onsubmit: function(e) {
                         editor.insertContent(
                             '[jd_books  genres=&quot;' +
